@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Amerikanska Gymnasiet Stockholm Space and Technology Club</title> <!--title-->
+    <link rel="stylesheet" type="text/css" href="style.css"> <!--css connection-->
+    <link rel="icon" type="image/x-icon" href="spacelogo.png"> <!--favicon duh-->
+
+</head>
+
+<body>
+
+    <!-- Part at the very top of page(navbar) -->
+    <header>
+        <div class="navbar">
+
+            <!--image and text-->
+            <image src="spacelogo.png" height="5%" width="5%" id="logoimage" />
+            <h1 class="logo">AGS Space and Technology Club</h1>
+
+            <!--list with buttons (takes you to section of page when pressed)-->
+            <nav>
+                <ul class="navlinks">
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#coding">Coding Department</a></li>
+                    <li><a href="#practical">Practical Department</a></li>
+                    <li><a href="#join-us">Join Us</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <!--the fucking three lines but they dont do anything-->
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+        </div>
+    </header>
+
+
+<!--section with text and explore button which does nothing yet-->
+    <section id="hero-section">
+        <h2>AGS Space and Technology Club</h2>
+        <h1>Welcome to the World of Technology and Space</h1>
+        <button class="btn">Explore</button> <!--button-->
+    </section>
+
+
+    <!--about us section-->
+    <div id="container">
+    <section id="about-us">
+        <h2>About Us</h2>
+
+        <!--who are we column-->
+        <div class="row">
+            <div class="column">
+                <h3>Who we are?</h3>
+                <p>We are the Space And Technology Club from Amerikanska Gymnasiet Stockholm. We focus mostly on researching space and building different types of tech.</p>
+            </div>
+
+            <!--what do we do column-->
+            <div class="column">
+                <h3>What we do?</h3>
+                <p>Our club is divided into two departments; the Coding Department which handles the software and code side of things, programming for hardware or creating digital media. We also have the Practical department which handles all hands-on tasks such as building things and working on physical stuff.</p>
+            </div>
+
+            <!--why join us column-->
+            <div class="column">
+                <h3>Why join us?</h3>
+                <p>Joining our club will give you an opportunity to learn and explore your interest in technology and space. You will have a chance to meet like-minded people and work on exciting projects that will enhance your skills and knowledge.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--scroll paralax images-->
+    <section id="images">
+        
+        <!--images (change url to change)-->
+        <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+            <img class="image" src="https://images.unsplash.com/photo-1614314007212-0257d6e2f7d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhY2UlMjBzdGF0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1457364887197-9150188c107b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNwYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1517976487492-5750f3195933?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cm9ja2V0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGluZHVzdHJpYWwlMjBtYWNoaW5lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNhYmxlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" draggable="false" />
+        </div>
+
+        <!--css, too lazy to put it in seperate css file. ¯\_(ツ)_/¯-->
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            margin: 0rem;
+            /*edits the part where the images are i think i dont remember*/
+        }
+        #image-track > .image{
+            width: 40vmin;
+            height: 56vmin;
+            object-fit: cover;
+            object-position: 100% 50%;
+            /*edits how the images look*/
+        }
+
+        #image-track {
+            display: flex;
+            gap: 4vmin;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0%, -50%);
+            /*changes how the section containing the images looks*/
+        }
+
+    </style>
+
+    <!--javascript, too lazy to put it in seperate js file. ¯\_(ツ)_/¯-->
+    <Script>
+        const track = document.getElementById("image-track");
+        //defines track as the image track
+
+        window.onmousedown = e => {
+            track.dataset.mouseDownAt = e.clientX;
+            //code for when mouse is clicked down
+        }
+
+        window.onmouseup = () => {
+            track.dataset.mouseDownAt = "0";
+            track.dataset.prevPercentage = track.dataset.percentage;
+            //code for when mouse is unclicked
+        }
+
+        window.onmousemove = e => {
+            if(track.dataset.mouseDownAt === "0") return;
+            //code for when mouse is being dragged
+
+            const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
+                  maxDelta = window.innerWidth / 2;
+                  //dexines deltas which does something i dont remember
+
+            const percentage = (mouseDelta / maxDelta) *-100;
+            nextPercentage = parseFloat(track.dataset.prevPercentage) + percentage;
+            nextPercentage = Math.min(nextPercentage, 0);
+            nextPercentage = Math.max(nextPercentage, -100);
+            //this whole section takes care of what happens when you click and drag your mouse, aka the paralax effect
+
+            track.dataset.percentage= nextPercentage;
+            //calculates the percentage of the invisible scroll bar which has already been scrolled (use this as an analogy for moving the images with a scroll bar)
+
+            track.animate({
+                transform: `translate(${nextPercentage}%, -50%)`
+            }, { duration: 1200, fill: "forwards"});
+            for(const image of track.getElementsByClassName("image")){
+            image.animate({
+                objectPosition: `${100 + nextPercentage}% center`
+            }, {duration: 1200, fill: "forwards"});
+            //this whole section takes care of the animation aka smooth ass scroll
+        }
+
+        }
+
+     </Script>
+     
+    </section>
+
+</div>
+
+
+<!--this section describes the coding department-->
+    <section id="coding">
+        <h2>Coding Department</h2>
+
+        <div class="row">
+
+                    <!--column explaining website project-->
+            <div class="column">
+                <div class="card">
+                    <img src="coding1.jpg">
+                    <h3>Website</h3>
+                    <p>We work with creating webpages including this one. We work with VSCode and Github Repositories.</p>
+                </div>
+            </div>
+
+                    <!--column explaining games project-->
+            <div class="column">
+                <div class="card">
+                    <img src="coding2.jpg">
+                    <h3>Games</h3>
+                    <p>We also plan on creating games, related to space or just for fun in general. Any game is possible.</p>
+                </div>
+            </div>
+
+                    <!--column explaining hardware project-->
+            <div class="column">
+                <div class="card">
+                    <img src="coding3.jpg">
+                    <h3>Hardware Coding</h3>
+                    <p>Once the Practical Department starts automating their rockets we're responsible for coding/programming the functions possibly with circuitboards.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--this section describes the practical department-->
+    <section id="practical">
+        <h2>Practical Department</h2>
+
+        <div class="row">
+
+            <!--column explaining robot project-->
+            <div class="column">
+                <div class="card">
+                    <img src="robot.jpg">
+                    <h3>Robot Building</h3>
+                    <p>We work on building robots for various purposes, such as competitions or just for fun.</p>
+                </div>
+            </div>
+
+            <!--column explaining rocket project-->
+            <div class="column">
+                <div class="card">
+                    <img src="rocket.jpg">
+                    <h3>Rocket Building</h3>
+                    <p>We work on building rockets for various purposes, such as launches or experiments.</p>
+                </div>
+            </div>
+
+            <!--column explaining tools project-->
+            <div class="column">
+                <div class="card">
+                    <img src="tools.jpg">
+                    <h3>Tools and Equipment</h3>
+                    <p>We have access to various tools and equipment for building and testing our projects.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--join us survey section-->
+    <section id="join-us">
+
+        <h2>Join Us</h2>
+        <p>If you are interested in joining our club, please fill out the form below and we will get back to you.</p>
+
+        <div class="google-form-container">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdjRO8OrOZIpbmLzcRZHFJLhDVJ-2SUxwHkXI5_qZnfMMimXA/viewform?embedded=true" width="800" height="927" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <!--google application form iframe-->
+        </div>
+
+      </section>
+      
+
+      <!--contact us section with contact info-->
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>For any inquiries or questions, please contact us at:</p>
+        <ul>
+            <li>Email: TBD</li>
+            <li>Phone: TBD</li>
+            <li>Address: Amerikanska Gymnasiet Stockholm, , Sweden</li>
+        </ul>
+    </section>
+
+
+    <!--footer-->
+    <footer class="footer">
+        <p id="footer_text">&copy; AGS Space and Technology Club 2023. All rights reserved. Website Team & Contributors: Damian, Leo</p>
+    </footer>
+
+
+</body>
+
+</html>
