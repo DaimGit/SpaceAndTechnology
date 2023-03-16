@@ -58,14 +58,7 @@ header {
     /*Styles the link in each list item to have a color of #f3c623 when it is being hovered over.*/
 }
 
-    .burger div {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px;
-    transition: all 0.3s ease;
-    /*Styles each div element within the burger element, which represents the hamburger menu icon, to have a width of 25px, height of 3px, white background color, 5px margin, and a transition effect.*/
-}
+
 
 @media screen and (max-width: 768px) {
     /* Media query for screens with a maximum width of 768px */
@@ -255,7 +248,7 @@ section h2 {
     left: 0;
     height: 100%;
     width: 100%;
-    margin-top: calc(25vh + 100px); /* adjust the value as needed */
+    margin-top: calc(25vh + 200px); /* adjust the value as needed */
     background-color: #272727;
     height: calc(75vh - 75px);
     /* Styles for an image element */
